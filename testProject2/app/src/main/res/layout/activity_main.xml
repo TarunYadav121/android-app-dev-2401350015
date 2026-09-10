@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:text="This is the main page "
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_open_calculator"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Calculator" />
+
+            <Button
+                android:id="@+id/btn_open_second_activity"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Second Activity" />
+
+            <Button
+                android:id="@+id/btn_open_checkbox"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Checkbox" />
+
+            <Button
+                android:id="@+id/btn_open_listview"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="ListView"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/btn_open_login_page"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="login page"
+                android:layout_marginBottom="16dp"
+                />
+            <Button
+                android:id="@+id/btn_open_select_color"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Select Color"
+                android:layout_marginBottom="16dp"
+                />
+            <Button
+                android:id="@+id/btn_open_hello_page"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="hello page"/>
+
+            <Button
+                android:id="@+id/btn_open_google"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="google" />
+
+            <Button
+                android:id="@+id/btn_open_caller"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Caller" />
+
+            <Button
+                android:id="@+id/btn_open_location"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Location" />
+
+            <Button
+                android:id="@+id/btn_open_file_manager"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="File Manager" />
+
+            <Button
+                android:id="@+id/btn_open_grid_layout"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Grid Layout" />
+            <Button
+                android:id="@+id/btn_open_frame_layout"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Frame Layout" />
+
+            <Button
+                android:id="@+id/btn_open_constraint_layout"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Constraint Layout" />
+
+            <Button
+                android:id="@+id/btn_open_relative_layout"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/relative_layout_text" />
+
+            <Button
+                android:id="@+id/btn_open_test_your_skill"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/test_your_skill" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
