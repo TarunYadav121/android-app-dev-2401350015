@@ -99,6 +99,10 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, TestYourSkillActivity.class);
             startActivity(intent);
         });
+        findViewById(R.id.btn_open_splash).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, SplashScreenActivity.class);
+            startActivity(intent);
+        });
 
     }
 }

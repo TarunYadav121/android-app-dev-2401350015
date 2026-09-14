@@ -35,6 +35,7 @@
         <activity android:name=".FrameLayout" />
         <activity android:name=".Relative" />
         <activity android:name=".TestYourSkillActivity" />
+        <activity android:name=".SplashScreenActivity"/>
 
     </application>
 

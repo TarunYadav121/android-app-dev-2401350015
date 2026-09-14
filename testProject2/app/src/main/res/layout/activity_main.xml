@@ -138,6 +138,13 @@
                 android:layout_marginBottom="16dp"
                 android:text="@string/test_your_skill" />
 
+            <Button
+                android:id="@+id/btn_open_splash"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/splash_screen" />
+
 
         </LinearLayout>
     </ScrollView>

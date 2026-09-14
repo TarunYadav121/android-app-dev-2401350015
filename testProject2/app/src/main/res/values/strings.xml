@@ -29,4 +29,6 @@
     <string name="test_your_skill">Test Your Skill</string>
     <string name="sample_image_desc">Sample Image</string>
     <string name="zero">0</string>
+    <string name="splash_testing">Splash Testing</string>
+    <string name="splash_screen">Splash Screen</string>
 </resources>
