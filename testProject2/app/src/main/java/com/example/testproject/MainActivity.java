@@ -103,6 +103,14 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, SplashScreenActivity.class);
             startActivity(intent);
         });
+        findViewById(R.id.btn_open_fragments).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, FragmentContainerActivity.class);
+            startActivity(intent);
+        });
+        findViewById(R.id.btn_open_subject).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, SubjectsActivity.class);
+            startActivity(intent);
+        });
 
     }
 }
