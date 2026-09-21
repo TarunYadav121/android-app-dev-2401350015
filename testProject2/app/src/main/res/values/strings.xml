@@ -56,4 +56,7 @@
     <string name="choose_subjects">Choose your subjects:</string>
     <string name="selection_result_prefix">You have selected: %1$s</string>
     <string name="none">None</string>
+    <string name="welcome_text">Welcome</string>
+    <string name="login_button">Login</string>
+    <string name="add_note">Add Note</string>
 </resources>

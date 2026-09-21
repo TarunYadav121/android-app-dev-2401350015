@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">लोकलाइज़ेशन उदाहरण</string>
+    <string name="welcome_text">स्वागत है</string>
+    <string name="login_button">लॉगिन</string>
+    <string name="add_note">नोट जोड़ें</string>
+</resources>

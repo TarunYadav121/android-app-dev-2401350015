@@ -4,12 +4,15 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -110,6 +113,11 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn_open_subject).setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, SubjectsActivity.class);
             startActivity(intent);
+        });
+
+        FloatingActionButton fab = findViewById(R.id.fab);
+        fab.setOnClickListener(v -> {
+            Toast.makeText(MainActivity.this, "Add Note", Toast.LENGTH_SHORT).show();
         });
 
     }
