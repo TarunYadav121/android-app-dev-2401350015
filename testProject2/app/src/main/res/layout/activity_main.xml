@@ -222,6 +222,23 @@
                     android:layout_margin="4dp"
                     android:backgroundTint="@color/button_color_2"
                     android:text="Subject Checkbox" />
+                <Button
+                    android:id="@+id/btnopenpdf"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="4dp"
+                    android:backgroundTint="@color/button_color_1"
+                    android:text="Open Cpp Notes" />
+
+                <Button
+                    android:id="@+id/btnAbout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="4dp"
+                    android:backgroundTint="@color/button_color_2"
+                    android:text="About" />
 
 
             </GridLayout>
