@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">कैंपस खोया और पाया</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">होम</string>
+    <string name="nav_add">नया जोड़ें</string>
+    <string name="nav_my_items">मेरी वस्तुएं</string>
+    <string name="nav_settings">सेटिंग्स</string>
+
+    <!-- Home Fragment -->
+    <string name="welcome_message">नमस्ते, छात्र!</string>
+    <string name="home_subtitle">खोई या पाई वस्तुओं की जानकारी देखें</string>
+    <string name="total_lost">खोया</string>
+    <string name="total_found">पाया</string>
+    <string name="total_resolved">हल हुआ</string>
+    <string name="search_hint">शीर्षक, स्थान या श्रेणी खोजें...</string>
+    <string name="filter_all">सभी</string>
+    <string name="no_items_found">कोई वस्तु नहीं मिली।</string>
+
+    <!-- Add Item Fragment -->
+    <string name="add_item_title">खोई या पाई वस्तु पोस्ट करें</string>
+    <string name="item_type">वस्तु का प्रकार</string>
+    <string name="type_lost">खोया (Lost)</string>
+    <string name="type_found">पाया (Found)</string>
+    <string name="category">श्रेणी</string>
+    <string name="title_hint">वस्तु का नाम (जैसे: नीला बैग)</string>
+    <string name="desc_hint">विस्तृत विवरण (रंग, ब्रांड, पहचान)</string>
+    <string name="location_hint">स्थान (जैसे: लाइब्रेरी दूसरा तला)</string>
+    <string name="date_hint">तारीख चुनें</string>
+    <string name="phone_hint">संपर्क फोन नंबर</string>
+    <string name="email_hint">संपर्क ईमेल</string>
+    <string name="select_image">चित्र चुनें</string>
+    <string name="submit_post">पोस्ट सबमिट करें</string>
+    <string name="post_success">सफलतापूर्वक पोस्ट किया गया!</string>
+
+    <!-- My Items Fragment -->
+    <string name="my_items_title">मेरी पोस्ट प्रबंधित करें</string>
+    <string name="mark_resolved">हल हुआ मार्क करें</string>
+    <string name="delete_item">हटाएं</string>
+    <string name="confirm_delete_title">हटाने की पुष्टि करें</string>
+    <string name="confirm_delete_msg">क्या आप वाकई इस पोस्ट को हटाना चाहते हैं?</string>
+    <string name="status_resolved">हल हुआ</string>
+    <string name="status_active">सक्रिय</string>
+
+    <!-- Detail Activity -->
+    <string name="item_details">वस्तु का विवरण</string>
+    <string name="contact_person">संपर्क व्यक्ति</string>
+    <string name="action_call">कॉल करें</string>
+    <string name="action_email">ईमेल करें</string>
+    <string name="action_share">शेयर करें</string>
+    <string name="posted_on">दिनांक: %1$s</string>
+    <string name="location_label">स्थान: %1$s</string>
+
+    <!-- Settings Fragment -->
+    <string name="settings_title">प्रोफाइल और सेटिंग्स</string>
+    <string name="student_name">छात्र का नाम</string>
+    <string name="roll_number">रोल नंबर / आईडी</string>
+    <string name="save_profile">प्रोफाइल सुरक्षित करें</string>
+    <string name="language">भाषा (Language)</string>
+    <string name="lang_english">English</string>
+    <string name="lang_hindi">हिंदी (Hindi)</string>
+    <string name="campus_guidelines">कैंपस नियम और निर्देश</string>
+    <string name="share_app">दोस्तों के साथ शेयर करें</string>
+    <string name="profile_saved">प्रोफाइल अपडेट हो गई!</string>
+
+    <!-- Dialog / General -->
+    <string name="ok">ठीक है</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="error_required">यह फ़ील्ड आवश्यक है</string>
+    <string name="share_text">कैंपस ऐप पर वस्तु देखें: %1$s स्थान %2$s पर। संपर्क: %3$s</string>
+</resources>

@@ -1,3 +1,71 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Campus Lost &amp; Found</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_add">Add Item</string>
+    <string name="nav_my_items">My Items</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home Fragment -->
+    <string name="welcome_message">Welcome, Campus Student!</string>
+    <string name="home_subtitle">Report or find lost belongings easily</string>
+    <string name="total_lost">Lost</string>
+    <string name="total_found">Found</string>
+    <string name="total_resolved">Resolved</string>
+    <string name="search_hint">Search title, location, category...</string>
+    <string name="filter_all">All</string>
+    <string name="no_items_found">No items found.</string>
+
+    <!-- Add Item Fragment -->
+    <string name="add_item_title">Post Lost or Found Item</string>
+    <string name="item_type">Item Type</string>
+    <string name="type_lost">Lost</string>
+    <string name="type_found">Found</string>
+    <string name="category">Category</string>
+    <string name="title_hint">Item Title (e.g. Blue Backpack)</string>
+    <string name="desc_hint">Detailed description (color, brand, marks)</string>
+    <string name="location_hint">Location (e.g. Library 2nd Floor)</string>
+    <string name="date_hint">Select Date</string>
+    <string name="phone_hint">Contact Phone Number</string>
+    <string name="email_hint">Contact Email</string>
+    <string name="select_image">Select Image</string>
+    <string name="submit_post">Submit Post</string>
+    <string name="post_success">Item posted successfully!</string>
+
+    <!-- My Items Fragment -->
+    <string name="my_items_title">Manage My Items</string>
+    <string name="mark_resolved">Mark as Resolved</string>
+    <string name="delete_item">Delete</string>
+    <string name="confirm_delete_title">Confirm Delete</string>
+    <string name="confirm_delete_msg">Are you sure you want to delete this post?</string>
+    <string name="status_resolved">Resolved</string>
+    <string name="status_active">Active</string>
+
+    <!-- Detail Activity -->
+    <string name="item_details">Item Details</string>
+    <string name="contact_person">Contact Person</string>
+    <string name="action_call">Call</string>
+    <string name="action_email">Email</string>
+    <string name="action_share">Share</string>
+    <string name="posted_on">Posted on: %1$s</string>
+    <string name="location_label">Location: %1$s</string>
+
+    <!-- Settings Fragment -->
+    <string name="settings_title">Profile &amp; Settings</string>
+    <string name="student_name">Student Name</string>
+    <string name="roll_number">Roll Number / Student ID</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="language">Language</string>
+    <string name="lang_english">English</string>
+    <string name="lang_hindi">हिंदी (Hindi)</string>
+    <string name="campus_guidelines">Campus Lost &amp; Found Guidelines</string>
+    <string name="share_app">Share App with Friends</string>
+    <string name="profile_saved">Profile updated!</string>
+
+    <!-- Dialog / General -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_required">This field is required</string>
+    <string name="share_text">Check out this item on Campus Lost &amp; Found app: %1$s at %2$s. Contact: %3$s</string>
 </resources>
