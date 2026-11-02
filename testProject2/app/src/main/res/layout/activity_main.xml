@@ -240,6 +240,33 @@
                     android:backgroundTint="@color/button_color_2"
                     android:text="About" />
 
+                <Button
+                    android:id="@+id/btn_open_airplane_mode"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="4dp"
+                    android:backgroundTint="@color/button_color_1"
+                    android:text="Airplane Mode" />
+
+                <Button
+                    android:id="@+id/btn_open_wifi_state"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="4dp"
+                    android:backgroundTint="@color/button_color_2"
+                    android:text="Wi-Fi State" />
+
+                <Button
+                    android:id="@+id/btn_open_battery_status"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="4dp"
+                    android:backgroundTint="@color/button_color_1"
+                    android:text="Battery Status" />
+
 
             </GridLayout>
 

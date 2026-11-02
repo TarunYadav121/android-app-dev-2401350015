@@ -134,6 +134,21 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        findViewById(R.id.btn_open_airplane_mode).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, AirplaneModeActivity.class);
+            startActivity(intent);
+        });
+
+        findViewById(R.id.btn_open_wifi_state).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, WifiStateActivity.class);
+            startActivity(intent);
+        });
+
+        findViewById(R.id.btn_open_battery_status).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, BatteryActivity.class);
+            startActivity(intent);
+        });
+
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(v -> {
             Toast.makeText(MainActivity.this, "Add Note", Toast.LENGTH_SHORT).show();
